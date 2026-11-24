@@ -13,7 +13,20 @@ Every pack folder has a `Preview.png` showing what's inside. Most 2D packs come 
 - `Spritesheet/` or `Tilesheet/`: everything on one big image, usually with an `.xml` file listing where each piece is. These are better for performance.
 - `Vector/`: SVG files that stay sharp at any size.
 
-## Packs (all by Kenney, all CC0)
+## KayKit packs (by Kay Lousberg, all CC0)
+
+Chunky, colourful low-poly 3D, all in the `kaykit/` folder. Models come as `gltf` (best for web games and three.js; keep each `.bin` file and texture next to its `.gltf`), `fbx` and `obj`.
+
+| Pack | What's in it |
+|---|---|
+| [adventurers](kaykit/adventurers) | 6 rigged heroes (Knight, Barbarian, Mage, Ranger, Rogue, Hooded Rogue) plus swords, axes, bows, crossbows, shields, staffs and mugs. The animations are in separate files under `Animations/` (general and basic movement sets). |
+| [forest-nature](kaykit/forest-nature) | 200+ trees, dead trees, bushes, grass and rocks in several colour variants. |
+| [dungeon-pack](kaykit/dungeon-pack) | 180+ modular dungeon pieces (floors, walls, doors, stairs, scaffolds, chests, traps, loot, potions) plus 4 characters (Knight, Mage, Barbarian, Rogue) with extra heads. |
+| [mini-game-variety](kaykit/mini-game-variety) | Bright platformer and party-game kit: coloured tiles, hurdles, rings, balls, spikes and pickups, plus Bear, Dog and Duck characters. |
+
+The Dungeon and Mini-Game packs include official KayKit logos in `KayKit Brand Resouces/`. Kay suggests putting one in your credits as a thank-you.
+
+## Kenney packs (all CC0)
 
 ### 3D
 | Pack | What's in it |
@@ -61,4 +74,8 @@ Every pack folder has a `Preview.png` showing what's inside. Most 2D packs come 
 
 ## Tidy-up notes
 
-Removed from the original zips because they're no use in web games: old Flash (`.swf`), Illustrator (`.ai`) and Unity (`.unitypackage`) files, Windows `Thumbs.db` files, web shortcut (`.url`) files and Kenney's offline overview pages. Nothing else was changed.
+Removed from the original zips because they're no use in web games: old Flash (`.swf`), Illustrator (`.ai`) and Unity (`.unitypackage`) files, Unity-only `fbx(unity)` copies, Collada (`.dae`) copies, Windows `Thumbs.db` files, web shortcut (`.url`) files and Kenney's offline overview pages. Nothing else was changed.
+
+## Kept out of this repo on purpose
+
+Some free assets don't allow re-sharing the files themselves, so they can't sit in a public repo. They're listed in [CREDITS.md](CREDITS.md) with their terms, so we remember the rules when a game uses them.
