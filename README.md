@@ -8,17 +8,57 @@ Only assets that are free for commercial use go in here: **CC0** (no credit need
 
 Games don't link to this repo directly. When a game needs an asset, copy just the files it uses into that game's own repo, keeping the folder structure, so a game never breaks if something here is moved or renamed.
 
-## Packs
+Every pack folder has a `Preview.png` showing what's inside. Most 2D packs come in a few versions:
+- `PNG/`: separate image files, the easiest to use.
+- `Spritesheet/` or `Tilesheet/`: everything on one big image, usually with an `.xml` file listing where each piece is. These are better for performance.
+- `Vector/`: SVG files that stay sharp at any size.
 
-| Pack | Folder | Type | Licence |
-|---|---|---|---|
-| Kenney – Mini Characters 2.0 | [`kenney/mini-characters`](kenney/mini-characters) | Low-poly 3D, animated | CC0 |
+## Packs (all by Kenney, all CC0)
 
-### Kenney – Mini Characters 2.0
+### 3D
+| Pack | What's in it |
+|---|---|
+| [mini-characters](kenney/mini-characters) | 20 chunky low-poly characters plus weapons and props. Fully animated: walk, sprint, jump, punches, kicks, drive, die and more. GLB, FBX and OBJ formats. |
+| [mini-dungeon](kenney/mini-dungeon) | Low-poly dungeon kit: walls, floors, stairs, gates, chests, traps, barrels, coins, potions, plus a human and an orc character. |
 
-![Mini Characters preview](kenney/mini-characters/preview.png)
+### Characters & creatures (2D)
+| Pack | What's in it |
+|---|---|
+| [modular-characters](kenney/modular-characters) | Mix-and-match character parts: heads, hair, faces, bodies, arms and legs in several skin tones and outfits. See `instruction.png`. |
+| [monster-builder-pack](kenney/monster-builder-pack) | Build-your-own monsters: bodies, eyes, mouths, horns, arms and legs in 6 colours. |
 
-- **20 characters** (male a–g, female a–f, knight, soldier, raider, worker, robot, alien, zombie, and more) plus weapons, shields, luggage, mobility aids and wheelchairs. There are 43 models in total.
-- **Formats:** `glb/` (best for web games, e.g. three.js), `fbx/` and `obj/`. Each format folder has its own `Textures/colormap.png`, which the models need, so keep it next to them.
-- **Animations built into every character:** idle, walk, sprint, jump, fall, crouch, sit, drive, die, pick-up, emote yes/no, holding (left/right/both, with shoot variants), melee attack left/right, kick left/right, interact left/right, and wheelchair moves.
-- `previews/` has a PNG render of each model.
+### Board, card & tabletop (great for the Grand Compendium)
+| Pack | What's in it |
+|---|---|
+| [boardgame-pack](kenney/boardgame-pack) | Full playing-card deck and backs, dice, poker chips and pawns/pieces in 7 colours. `Bonus/` has sound effects for cards, chips and dice. |
+| [board-game-icons](kenney/board-game-icons) | 250+ white icons for board games: resources, actions, dice faces, arrows, cards, tokens. |
+| [puzzle-pack-1](kenney/puzzle-pack-1) | Coloured gems, bricks and blocks for match-3, breakout and puzzle games. |
+
+### Environments & tiles (2D)
+| Pack | What's in it |
+|---|---|
+| [background-elements](kenney/background-elements) | Clouds, trees, hills, mountains and castles for layered side-on backgrounds. |
+| [racing-pack](kenney/racing-pack) | Top-down racing: road and track tiles, cars, motorbikes, barriers, cones and trees. |
+| [sports-pack](kenney/sports-pack) | Balls, players and kit for lots of sports, plus pitch and court ground tiles in 10 colour schemes. |
+| [roguelike-caves-dungeons](kenney/roguelike-caves-dungeons) | Pixel-art tilesheet for caves and dungeons (16px tiles). |
+| [roguelike-indoors](kenney/roguelike-indoors) | Pixel-art tilesheet for house interiors and furniture (16px tiles). |
+
+### Items & effects
+| Pack | What's in it |
+|---|---|
+| [generic-items](kenney/generic-items) | 100+ everyday item icons: tools, food, gadgets, books, kitchenware and more. |
+| [particle-pack](kenney/particle-pack) | Smoke, fire, sparks, magic, flares, stars and explosions, on transparent and black backgrounds. |
+
+### UI (menus, buttons, panels)
+| Pack | What's in it |
+|---|---|
+| [ui-pack](kenney/ui-pack) | Clean all-purpose buttons, sliders, checkboxes and panels in several colours. Includes the **Kenney Future** fonts and click/tap sounds. |
+| [ui-pack-adventure](kenney/ui-pack-adventure) | Wood, parchment and metal fantasy panels, banners, bars and minimap frames. |
+| [ui-pack-pixel-adventure](kenney/ui-pack-pixel-adventure) | Pixel-art version of the adventure UI. |
+| [ui-pack-rpg-expansion](kenney/ui-pack-rpg-expansion) | RPG panels, bars, buttons, arrows and cursors in brown, beige and grey. |
+| [ui-pack-space-expansion](kenney/ui-pack-space-expansion) | Sci-fi panels, bars and buttons, with fonts. |
+| [fantasy-ui-borders](kenney/fantasy-ui-borders) | Decorative fantasy frames, borders and dividers. |
+
+## Tidy-up notes
+
+Removed from the original zips because they're no use in web games: old Flash (`.swf`), Illustrator (`.ai`) and Unity (`.unitypackage`) files, Windows `Thumbs.db` files, web shortcut (`.url`) files and Kenney's offline overview pages. Nothing else was changed.
