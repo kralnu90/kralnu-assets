@@ -1,6 +1,6 @@
 # Credits
 
-Every pack in this repo (or used by Kralnu games), its author, source and licence. Copy the relevant lines into a game's credits screen when it uses that pack.
+Every pack in this repo, its author, source and licence. Copy the relevant lines into a game's credits screen when it uses that pack.
 
 ## CC0 (credit optional, but given)
 
@@ -43,16 +43,3 @@ Suggested in-game credit, one line covers them all: *Art assets by Kenney (www.k
 ## CC-BY (credit required)
 
 *None yet.* Format to use: `"[asset name]" by [author] licensed [licence]: [url]`
-
-## Restricted: NOT stored in this repo
-
-### Raven Fantasy Icons (free version) by Clockwork Raven Studios
-- **Source:** [clockworkraven.itch.io/raven-fantasy-icons](https://clockworkraven.itch.io/raven-fantasy-icons)
-- **Zip contained:** no licence or credit file, only a thank-you note from the artist (Caio). These notes were written from the store page, checked 24 Nov 2026.
-- **Terms:**
-  - The artist says the free version is **personal use only**. Personal use means projects or games released for free, with no microtransactions and no paid ads.
-  - The asset files **can't be redistributed or sold on their own**. That's why they aren't in this public repo.
-  - Using the icons inside a game is fine, and so is editing them.
-  - Credit isn't required, but it's welcome.
-- **Grey area:** donation pages like Ko-fi aren't covered by the terms. Check with the artist before using these in a game that has a donate button, or buy the paid version, which allows commercial use.
-- **Suggested in-game credit:** *Icons: "Raven Fantasy Icons" by Clockwork Raven Studios (clockworkraven.itch.io)*

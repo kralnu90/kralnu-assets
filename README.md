@@ -75,7 +75,3 @@ The Dungeon and Mini-Game packs include official KayKit logos in `KayKit Brand R
 ## Tidy-up notes
 
 Removed from the original zips because they're no use in web games: old Flash (`.swf`), Illustrator (`.ai`) and Unity (`.unitypackage`) files, Unity-only `fbx(unity)` copies, Collada (`.dae`) copies, Windows `Thumbs.db` files, web shortcut (`.url`) files and Kenney's offline overview pages. Nothing else was changed.
-
-## Kept out of this repo on purpose
-
-Some free assets don't allow re-sharing the files themselves, so they can't sit in a public repo. They're listed in [CREDITS.md](CREDITS.md) with their terms, so we remember the rules when a game uses them.
